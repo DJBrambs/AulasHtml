@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="#">
+
+        <fieldset>
+            <legend>Cadastro Cliente</legend>
+
+            <label for="">Nome:</label>
+            <input type="text"><br><br>
+            <label for="">Contato:</label>
+            <input type="number">
+            <label for="">E-mail:</label>
+            <input type="">
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Lista de carros</legend>
+            <select nome="listaCarro" id="listaCarro">
+                <option disabled selected hidden>Selecione</option>
+                <option value="evoque">Evoque</option>
+                <option value="Celta">Celta</option>
+                <option value="Gol">Gol</option>
+                <option value="Jetta">Jetta</option>
+                <option value="Cronos">Cronos</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Região</legend>
+            <input autocomplete="on" list="regiao" placeholder="Ex: São Paulo">
+            <br>
+            <datalist id="regiao">
+                <br><br>
+
+                <option value="São Paulo"></option>
+                <option value="Juquitiba"></option>
+                <option value="Parana"></option>
+                <option value=""></option>
+                <br><br>
+
+            </datalist>
+            <br>
+            <input type="range" nome="ss" id="tst">
+            <br><br>
+            <label for="feedback">Deixe seu feedback Aqui:</label>
+            <br><br>
+            <textarea name="feedback" id="feedback" cols="30" rows="10" required placeholder="Deixe seu feedback."
+                maxlength="150" minlength="100"></textarea>
+            <input type="radio" name="reg" id="reg1" value="S"><br><br>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <Legend>Avalie</Legend>
+            <input type="radio" >
+            <label for="">Bom</label>
+            <br>
+            <input type="radio">
+            <label for="">Regular</label>
+            <br>
+            <input type="radio">
+            <label for="">Ruim</label>
+        </fieldset>
+</body>
+
+</html>

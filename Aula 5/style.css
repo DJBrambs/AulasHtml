@@ -1,0 +1,25 @@
+body {
+    background-color: deeppink;
+    color: black;
+}
+
+P {
+    text-align: center;
+    color: six;
+    background-color: darkorchid;
+}
+
+h2 {
+    text-align: center;
+    background-color: darkorchid;
+}
+
+h1 {
+    text-align: center;
+    background-color: darkorchid;
+    color: black;
+}
+
+div {
+    text-align: center;
+}

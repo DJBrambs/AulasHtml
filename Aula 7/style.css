@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: blueviolet;
+    
+}
+
+form {
+    background-color: deeppink;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 15px;
+    text-align: center;
+}
